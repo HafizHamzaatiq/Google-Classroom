@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  overflow-y: hidden;
+}
+
+.color-gray {
+  color: gray;
+}
+
+.background-color-green {
+  background-color: green;
+}
+
+.background-color-blue {
+  background-color: rgb(25, 103, 210);
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.logo {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.vv{
+    width: 15px;
+    height: 10px;
+}
+
+.logo a {
+  font-size: 22px;
+  color: #5f6368;
+}
+
+.logo a:hover {
+  text-decoration: underline;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.logo img {
+  height: 28px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+
+}
+.cn{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.profile i {
+  font-size: 24px;
+}
+
+main {
+  display: flex;
+  gap: 50px;
+}
+
+.aside-section {
+  width: 23vw;
+  height: 100vh;
+  border-right: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+}
+
+.option-1,
+.option-2,
+.option-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 15px 20px;
+  gap: 15px;
+}
+
+.option-1 div,
+.option-2 div,
+.option-3 div {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  padding: 5px 0;
+  transition: all 0.3s;
+}
+
+.option-1 div i,
+.option-2 div i,
+.option-3 div i {
+  font-size: 22px;
+}
+
+.option-1 div a,
+.option-2 div a,
+.option-3 div a {
+  font-size: 14px;
+  color: #3c4043;
+  font-weight: 500;
+}
+
+.option-1,
+.option-2 {
+  border-bottom: 1px solid #ccc;
+}
+
+.active {
+  background-color: rgb(232, 240, 254);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding-left: 10px !important;
+  cursor: pointer;
+}
+
+.option-1 div:hover,
+.option-2 div:hover,
+.option-3 div:hover {
+  background-color: rgba(0, 0, 0, 0.12);
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding-left: 10px !important;
+  cursor: pointer;
+}
+
+.alphabat {
+  padding: 10px;
+  font-size: 12px;
+  color: #fff;
+  border-radius: 50%;
+}
+
+.section-card {
+  width: 73vw;
+  padding: 40px 20px;
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.card {
+  width: 340px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: all 0.3s;
+}
+
+.card-content {
+  padding: 12px 20px;
+  color: #fff;
+}
+
+.card:hover {
+  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3),
+    0 2px 6px 2px rgba(60, 64, 67, 0.15);
+    cursor: pointer;
+}
+
+.card-content h3 {
+  font-weight: 500;
+  margin-bottom: 5px;
+  transition: all 0.3s;
+}
+
+.card-content span {
+  font-size: 14px;
+  font-weight: light;
+  transition: all 0.3s;
+}
+
+.background {
+  background-image: url(background.jpeg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+
+.b-image {
+  text-align: right;
+  margin-right: 20px;
+  margin-top: -40px;
+}
+
+.b-image img {
+  border-radius: 50%;
+}
+
+.empty {
+  padding: 10px;
+}
+
+.icon {
+  border-top: 1px solid #ccc;
+  padding: 10px 20px;
+  text-align: right;
+}
+
+.icon i {
+  font-size: 20px;
+  margin-right: 10px;
+}
+.section-card,h3:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
